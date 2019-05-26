@@ -1,0 +1,2 @@
+[program:go-ss]
+command=/usr/local/go/bin/go-shadowsocks2 -s 'ss://$encryption_type:$ss_user@:$ss_port' -verbose
